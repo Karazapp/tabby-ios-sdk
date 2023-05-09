@@ -2,7 +2,7 @@
 
 ## Requirements
 
-iOS 13.0+
+iOS 14.0+
 Swift 5.3+
 Xcode 12.0+
 
@@ -256,7 +256,7 @@ import Tabby
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        if #available(iOS 13.0, *) {
+        if #available(iOS 14.0, *) {
             let vc = UIHostingController(
                 rootView: Tabby.TabbyProductPageSnippet(amount: 1990, currency: .SAR)
             )
@@ -288,7 +288,7 @@ import Tabby
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        if #available(iOS 13.0, *) {
+        if #available(iOS 14.0, *) {
             let vc = UIHostingController(
                 rootView: Tabby.TabbyCheckoutSnippet(amount: 2000, currency: .AED)
             )
